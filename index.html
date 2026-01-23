@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sélecteur d'Universités - Centrale Marseille</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --centrale-blue: #86A689; /* À ajuster selon le bleu de l'école */
+            --bg-color: rgba(255,240,220,0.5);
+        }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background: rgba(255,240,220,0.5); 
+            padding: 20px; 
+            color: #333; }
+
+        @font-face {
+            font-family: Pulp;
+            src: url(super_pulp/Super_Pulp_Personal_Use.ttf);
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 30px; border-radius: 15px; box-shadow: 4px -2px 10px grey; background: white; }
+
+        h1 { 
+            font-family: Pulp, sans-serif;
+            font-size: 45px;
+            color: var(--centrale-blue); 
+            text-align: center; }
+        h2 {
+            font-family: Pulp, sans-serif;
+            font-size: 20px;
+            color: #2F4A3F; 
+            text-align: center; 
+        }
+        .continent {
+            color: #D4C2EF;
+            font-family: pulp;
+            font-size: 50px;
+        }
+        .label {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            color: #2F4A3F;
+        }
+        p { font-family: 'Rubik', sans-serif; }
+        .search-section { text-align: center; margin-bottom: 20px; padding: 20px; background: rgba(134, 166, 137, 0.3); border-radius: 10px; }
+        .bouton {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            color: #2F4A3F;
+            background-color: #ddd;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        input { padding: 12px; width: 100px; border: 2px solid #ddd; border-radius: 8px; font-size: 18px; text-align: center; font-family: rubik; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 40px; }
+        .card { border: 1px solid #eee; display: flex; flex-direction: column; height: 100%; padding: 15px; border-radius: 10px; transition: 0.3s;}
+        .card h3 { margin: 0 0 0 0; color: var(--centrale-blue); font-size: 1.5em; font-family: Pulp, sans-serif; }
+        .card p {
+            margin: 4px 0; /* Réduit l'espace haut/bas à 4px au lieu de 16px par défaut */
+            line-height: 1.4; /* Ajuste l'interlignage pour plus de compacité */
+            font-size: 15px; /* Optionnel : ajuste la taille du texte */
+            text-align: left;
+        }
+        .card gpa {text-align: center; display: block; margin-bottom: 15px;}
+        .card a {
+            margin-top: auto;
+            color: var(--centrale-blue);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .badge { background: #e1f5fe; color: #01579b; padding: 4px 8px; border-radius: 5px; font-size: 0.8em; font-weight: bold; }
+        .gpa-tag { color: #2F4A3F; font-weight: bold; }
+        .no-result { text-align: center; grid-column: 1 / -1; color: #666; padding: 20px; }
+        .continent-header {
+            grid-column: 1 / -1; /* Le titre prend toute la largeur de la grille */
+            margin-top: 60px;
+            margin-bottom: 10px;
+        }
+
+        .continent-header h2 {
+            text-align: left;
+            color: #2F4A3F;
+            font-family: Pulp, sans-serif;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .continent-header hr {
+        border: none;
+        height: 3px;
+        background-color: var(--centrale-blue);
+        width: 100px;
+        margin: 0;
+        border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🌍 Où puis-je partir en échange ?</h1>
+    <h2 >Entre tes critères pour voir les universités partenaires éligibles.</h2>
+
+    <div class="search-section">
+        <label class="label"for="gpaInput">Ton GPA actuel : </label>
+        <input type="number" id="gpaInput" step="0.1" min="3" max="4" placeholder="ex: 3.5">
+    </div>
+    <div class="search-section">
+        <label class="label"for="prixInput">Ton loyer max (€): </label>
+        <input type="number" id="prixInput" step="50" min="50" max="1500" placeholder="ex: 500">
+    </div>
+    <div class="search-section">
+    <label class="label" for="domaineSelect">Domaine d'étude : </label>
+    <select id="domaineSelect" style="padding: 10px; border-radius: 8px; font-family: rubik;">
+        <option value="Tous">-- Tous les domaines --</option>
+        <option value="General Engineering">General Engineering</option>
+        <option value="Mechanical Engineering">Mechanical Engineering</option>
+        <option value="Civil Engineering">Civil Engineering</option>
+        <option value="Electrical Engineering">Electrical Engineering</option>
+        <option value="Chemical Engineering">Chemical Engineering</option>
+        <option value="Information Technology">Information Technology</option>
+        <option value="Aerospace Engineering">Aerospace Engineering</option>
+        <option value="Mechatronic Engineering">Mechatronic Engineering</option>
+        <option value="Acoustic Engineering">Acoustic Engineering</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Business, Administration and Management">Business, Administration and Management</option>
+        <option value="Economics"> Economics</option>
+        <option value="Mathematics">Mathematics</option>
+        <option value="Physics">Physics</option>
+        </select>
+</div>
+    <div class="bouton-section " style="text-align: center; margin-bottom: 20px;">
+        <button class="bouton" id="filterButton">Filtrer</button>
+    <span class="muted" id="status"></span>
+    <div id="results" >
+        </div>       
+</div>
+
+<script>
+const gpaInput = document.getElementById('gpaInput');
+const prixInput = document.getElementById('prixInput');
+const domaineSelect = document.getElementById('domaineSelect');
+const resultsContainer = document.getElementById('results');
+let universites = []; 
+
+// Charger les données UNE SEULE FOIS au démarrage
+fetch('universites_V5.json')
+    .then(response => {
+        if (!response.ok) throw new Error("Fichier JSON introuvable");
+        return response.json();
+    })
+    .then(data => {
+        universites = data;
+        console.log("✅ JSON chargé avec succès :", universites);
+        // Optionnel : afficher toutes les universités dès le début
+        document.getElementById("status").textContent = `${data.length} universités chargées`;
+
+        displayUniversities(4.5, 10000, "Tous"); 
+    })
+    .catch(error => {
+        console.error("❌ Erreur :", error);
+        resultsContainer.innerHTML = "<p style='color:red'>Erreur de chargement des données. Vérifiez la console (F12).</p>";
+        document.getElementById("status").textContent = "Erreur de chargement des universités.";
+
+    });
+
+function displayUniversities(gpaFiltre, prixFiltre, domaineCours) {
+    if (universites.length === 0) {
+        resultsContainer.innerHTML = "<p>Chargement des données en cours...</p>";
+        return;
+    }
+
+    resultsContainer.innerHTML = "";
+    const groupes = {};
+    
+    // FILTRE : On compare le GPA saisi avec celui du JSON
+    const filtered = universites.filter(u => {
+        // Debugging : affiche chaque comparaison dans la console
+        console.log(`Comparaison : ${u.GPA} <= ${gpaFiltre}`);
+        return parseFloat(u.GPA) <= gpaFiltre;
+    });
+
+    if (filtered.length === 0) {
+        resultsContainer.innerHTML = "<p class='no-result'>Aucune université accessible avec ce GPA.</p>";
+        return;
+    }
+
+    const filtered2 = filtered.filter(u => {
+        // Debugging : affiche chaque comparaison dans la console
+        console.log(`Comparaison : ${u.prix_moyen_logement} <= ${prixFiltre}`);
+        return parseFloat(u.prix_moyen_logement) <= prixFiltre;
+    });
+
+    if (filtered2.length === 0) {
+        resultsContainer.innerHTML = "<p class='no-result'>Aucune université accessible avec ce GPA et ce prix.</p>";
+        return;
+    }
+
+    const filtered3 = filtered2.filter(u => {
+        // On utilise domaineCours qui est soit "Tous", soit le domaine choisi
+        const respecteDomaine = (domaineCours === "Tous") || 
+                                (u.domaine_cours && u.domaine_cours.includes(domaineCours));
+        return respecteDomaine;
+    });
+
+    // Affichage des résultats
+    if (filtered3.length === 0) {
+        resultsContainer.innerHTML = "<p class='no-result'>Aucune université ne correspond à ces critères.</p>";
+        return;
+    }
+
+    filtered3.forEach(u => {
+        const continent = u.CONTINENT || "Autres";
+        if (!groupes[continent]) {
+            groupes[continent] = [];
+        }
+        groupes[continent].push(u);
+    });
+
+    // 2. On affiche chaque groupe avec un titre
+    // On trie les noms de continents par ordre alphabétique
+    const continentsTries = Object.keys(groupes).sort();
+
+    continentsTries.forEach(continent => {
+        // Ajouter un titre de section pour le continent
+        resultsContainer.innerHTML += `
+            <div class="continent-header">
+                <h2>📍 ${continent}</h2>
+                <hr>
+            </div>
+        `;
+
+        // Créer une sous-grille pour les cartes de ce continent
+        const subGrid = document.createElement('div');
+        subGrid.className = 'grid'; // Utilise votre style de grille existant
+    
+        groupes[continent].forEach(u => {
+            const domainesFormates = u.domaine_cours ? u.domaine_cours.replaceAll(" / ", "<br>") : "Général";
+            const cardHTML = `
+                <div class="card">
+                    <h3>${u.TITLE}</h3>
+                    <gpa>GPA : <span class="gpa-tag">${u.GPA}</span></gpa>
+                    <p>📍 ${u.VILLE}, ${u.PAYS}</p>
+                    <p>🏠 ${u.prix_moyen_logement}€</p>
+                    <p>🎓 ${domainesFormates}</p>
+                    <a href="${u.lien_univ}">Accédez au site de l'université→ </a>
+            </div>
+            `;
+            subGrid.innerHTML += cardHTML;
+        });
+    
+        resultsContainer.appendChild(subGrid);
+    });
+
+}
+
+filterButton.addEventListener('click', () => {
+    const gpaValue = parseFloat(gpaInput.value) || 4.5;
+    const prixValue = parseFloat(prixInput.value) || 5000;
+    const domaineValue = domaineSelect.value;
+
+    displayUniversities(gpaValue, prixValue, domaineValue);
+    }
+);
+</script>
+
+</body>
+</html>

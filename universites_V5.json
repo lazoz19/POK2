@@ -1,0 +1,652 @@
+[
+  {
+    "TITLE": "RWTH",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ALLEMAGNE",
+    "VILLE": "Aix-La-Chapelle",
+    "lien_univ": "https://www.rwth-aachen.de/go/id/a/?lidx=1",
+    "prix_moyen_logement": 550,
+    "GPA": 3.6,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering"
+  },
+  {
+    "TITLE": "TU DRESDEN",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ALLEMAGNE",
+    "VILLE": "Dresden",
+    "lien_univ": "https://tu-dresden.de",
+    "prix_moyen_logement": 550,
+    "GPA": 3.6,
+    "domaine_cours": "Electrical Engineering / Mechatronic Engineering"
+  },
+  {
+    "TITLE": "TU DARMSTADT",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ALLEMAGNE",
+    "VILLE": "Darmstadt",
+    "lien_univ": "https://www.tu-darmstadt.de/index.en.jsp",
+    "prix_moyen_logement": 450,
+    "GPA": 3.6,
+    "domaine_cours": "Physics"
+  },
+  {
+    "TITLE": "TU MUNCHEN",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ALLEMAGNE",
+    "VILLE": "Munich",
+    "lien_univ": "https://www.tum.de/en/",
+    "prix_moyen_logement": 550,
+    "GPA": 3.6,
+    "domaine_cours": "Mechanical Engineering"
+  },
+  {
+    "TITLE": "KIT",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ALLEMAGNE",
+    "VILLE": "Karlsruhe",
+    "lien_univ": "https://www.kit.edu",
+    "prix_moyen_logement": 550,
+    "GPA": 3.6,
+    "domaine_cours": "Business, Administration and Management / Mathematics"
+  },
+  {
+    "TITLE": "TU BERLIN",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ALLEMAGNE",
+    "VILLE": "Berlin",
+    "lien_univ": "https://www.tu.berlin",
+    "prix_moyen_logement": 350,
+    "GPA": 3.6,
+    "domaine_cours": "Electrical Engineering / Chemical Engineering / Physics"
+  },
+  {
+    "TITLE": "TU WIEN",
+    "CONTINENT": "EUROPE",
+    "PAYS": "AUTRICHE",
+    "VILLE": "Vienne",
+    "lien_univ": "https://www.tuwien.at",
+    "prix_moyen_logement": 550,
+    "GPA": 3.6,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Electrical Engineering / Industrial Engineering / Chemical Engineering"
+  },
+  {
+    "TITLE": "ULG",
+    "CONTINENT": "EUROPE",
+    "PAYS": "BELGIQUE",
+    "VILLE": "Liège",
+    "lien_univ": "https://www.uliege.be/cms/c_8699436/fr/uliege",
+    "prix_moyen_logement": 550,
+    "GPA": 3.7,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "UC LOUVAIN",
+    "CONTINENT": "EUROPE",
+    "PAYS": "BELGIQUE",
+    "VILLE": "Louvain",
+    "lien_univ": "https://www.uclouvain.be/fr/sites/woluwe",
+    "prix_moyen_logement": 550,
+    "GPA": 3.7,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "VUB",
+    "CONTINENT": "EUROPE",
+    "PAYS": "BELGIQUE",
+    "VILLE": "Bruxelles",
+    "lien_univ": "https://www.vub.be/en",
+    "prix_moyen_logement": 550,
+    "GPA": 3.7,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "ULB",
+    "CONTINENT": "EUROPE",
+    "PAYS": "BELGIQUE",
+    "VILLE": "Bruxelles",
+    "lien_univ": "https://www.ulb.be",
+    "prix_moyen_logement": 550,
+    "GPA": 3.7,
+    "domaine_cours": "Chemical Engineering"
+  },
+  {
+    "TITLE": "U MONS",
+    "CONTINENT": "EUROPE",
+    "PAYS": "BELGIQUE",
+    "VILLE": "Mons",
+    "lien_univ": "https://web.umons.ac.be/fr/",
+    "prix_moyen_logement": 550,
+    "GPA": 3.7,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "Sofia University",
+    "CONTINENT": "EUROPE",
+    "PAYS": "BULGARIE",
+    "VILLE": "Sofia",
+    "lien_univ": "https://www.uni-sofia.bg/index.php/eng/the_university",
+    "prix_moyen_logement": 350,
+    "GPA": 3.4,
+    "domaine_cours": "Computer Science / Mathematics"
+  },
+  {
+    "TITLE": "SDU",
+    "CONTINENT": "EUROPE",
+    "PAYS": "DANEMARK",
+    "VILLE": "Copenhague",
+    "lien_univ": "https://www.sdu.dk/en/uddannelse/kandidat/data-science-kolding?utm_source=google&utm_medium=search&utm_campaign=nat-datascience-2025&utm_term=data%20science%20denmark&gad_source=1&gad_campaignid=22763115102&gbraid=0AAAAACc7SNhlmPcHgQZvWrPfOTxIfNcv8&gclid=Cj0KCQiArOvIBhDLARIsAPwJXOZvjKgYrbqFyyINeq555QWfyXXdn2DSMJuGzZ1XS7tNvDevqqwkxhoaArlVEALw_wcB",
+    "prix_moyen_logement": 450,
+    "GPA": 3.5,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "UPM ETSII",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ESPAGNE",
+    "VILLE": "Madrid",
+    "lien_univ": "https://www.industriales.upm.es",
+    "prix_moyen_logement": 750,
+    "GPA": 3.5,
+    "domaine_cours": "Industrial Engineering"
+  },
+  {
+    "TITLE": "UPV",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ESPAGNE",
+    "VILLE": "Valence",
+    "lien_univ": "https://www.upv.es",
+    "prix_moyen_logement": 750,
+    "GPA": 3.5,
+    "domaine_cours": "Acoustic Engineering"
+  },
+  {
+    "TITLE": "UPV ETSII",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ESPAGNE",
+    "VILLE": "Valence",
+    "lien_univ": "https://www.etsii.upv.es",
+    "prix_moyen_logement": 750,
+    "GPA": 3.5,
+    "domaine_cours": "Industrial Engineering"
+  },
+  {
+    "TITLE": "UPC ETSEIB",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ESPAGNE",
+    "VILLE": "Barcelone",
+    "lien_univ": "https://etseib.upc.edu/en/",
+    "prix_moyen_logement": 750,
+    "GPA": 3.5,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "UPC-FME",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ESPAGNE",
+    "VILLE": "Barcelone",
+    "lien_univ": "https://fme.upc.edu/es?set_language=es",
+    "prix_moyen_logement": 750,
+    "GPA": 3.5,
+    "domaine_cours": "Mathematics"
+  },
+  {
+    "TITLE": "UPC FIB",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ESPAGNE",
+    "VILLE": "Barcelone",
+    "lien_univ": "https://www.fib.upc.edu/en",
+    "prix_moyen_logement": 750,
+    "GPA": 3.5,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "Universidad de Sevilla\nUV",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ESPAGNE",
+    "VILLE": "Séville",
+    "lien_univ": "https://www.us.es",
+    "prix_moyen_logement": 750,
+    "GPA": 3.5,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "NTUA",
+    "CONTINENT": "EUROPE",
+    "PAYS": "GRÈCE",
+    "VILLE": "Athènes",
+    "lien_univ": "https://www.ntua.gr/en/",
+    "prix_moyen_logement": 550,
+    "GPA": 3.5,
+    "domaine_cours": "Electrical Engineering / Computer Science / Chemical Engineering"
+  },
+  {
+    "TITLE": "BME",
+    "CONTINENT": "EUROPE",
+    "PAYS": "HONGRIE",
+    "VILLE": "Budapest",
+    "lien_univ": "https://www.bme.hu/en",
+    "prix_moyen_logement": 550,
+    "GPA": 3.7,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Chemical Engineering"
+  },
+  {
+    "TITLE": "La Sapienza University",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ITALIE",
+    "VILLE": "La sapienca",
+    "lien_univ": "https://www.uniroma1.it/en/pagina-strutturale/home",
+    "prix_moyen_logement": 750,
+    "GPA": 3.7,
+    "domaine_cours": "Mechanical Engineering / Aerospace Engineering"
+  },
+  {
+    "TITLE": "L'Aquilla",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ITALIE",
+    "VILLE": "L'Aquila",
+    "lien_univ": "https://www.univaq.it/en/index.php?&lang_s=en",
+    "prix_moyen_logement": 750,
+    "GPA": 3.4,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "Bologna University",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ITALIE",
+    "VILLE": "Bologne",
+    "lien_univ": "https://www.unibo.it/en/homepage",
+    "prix_moyen_logement": 750,
+    "GPA": 3.6,
+    "domaine_cours": "Economics"
+  },
+  {
+    "TITLE": "Politecnico di Torino",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ITALIE",
+    "VILLE": "Turin",
+    "lien_univ": "https://www.polito.it/en",
+    "prix_moyen_logement": 750,
+    "GPA": 3.7,
+    "domaine_cours": "Mechanical Engineering / Computer Science / Chemical Engineering / Aerospace Engineering / Mathematics"
+  },
+  {
+    "TITLE": "Politecnico di Milano",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ITALIE",
+    "VILLE": "Milan",
+    "lien_univ": "https://www.polimi.it/en/",
+    "prix_moyen_logement": 750,
+    "GPA": 3.7,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "Brescia University",
+    "CONTINENT": "EUROPE",
+    "PAYS": "ITALIE",
+    "VILLE": "Brescia",
+    "lien_univ": "https://www.brescia.edu",
+    "prix_moyen_logement": 750,
+    "GPA": 3.5,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "VGTU",
+    "CONTINENT": "EUROPE",
+    "PAYS": "LITUANIE",
+    "VILLE": "Vilnius",
+    "lien_univ": "https://vilniustech.lt/index.php?lang=2",
+    "prix_moyen_logement": 550,
+    "GPA": 3.4,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "TU EINDHOVEN",
+    "CONTINENT": "EUROPE",
+    "PAYS": "PAYS-BAS",
+    "VILLE": "Eindhoven",
+    "lien_univ": "https://www.tue.nl/en/",
+    "prix_moyen_logement": 650,
+    "GPA": 3.6,
+    "domaine_cours": "Industrial Engineering"
+  },
+  {
+    "TITLE": "UVA",
+    "CONTINENT": "EUROPE",
+    "PAYS": "PAYS-BAS",
+    "VILLE": "Amsterdam",
+    "lien_univ": "https://www.uva.nl/en",
+    "prix_moyen_logement": 650,
+    "GPA": 3.7,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "WROCLAW",
+    "CONTINENT": "EUROPE",
+    "PAYS": "POLOGNE",
+    "VILLE": "Wroclaw",
+    "lien_univ": "https://uwr.edu.pl/en/",
+    "prix_moyen_logement": 550,
+    "GPA": 3.4,
+    "domaine_cours": "Computer Science"
+  },
+  {
+    "TITLE": "LODZ",
+    "CONTINENT": "EUROPE",
+    "PAYS": "POLOGNE",
+    "VILLE": "Lodz",
+    "lien_univ": "https://www.uni.lodz.pl/en/",
+    "prix_moyen_logement": 450,
+    "GPA": 3.4,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "IST",
+    "CONTINENT": "EUROPE",
+    "PAYS": "PORTUGAL",
+    "VILLE": "Lisbonne",
+    "lien_univ": "https://tecnico.ulisboa.pt/en/",
+    "prix_moyen_logement": 650,
+    "GPA": 3.7,
+    "domaine_cours": "Mechanical Engineering / Chemical Engineering / Business, Administration and Management / Physics / Mathematics"
+  },
+  {
+    "TITLE": "COIMBRA",
+    "CONTINENT": "EUROPE",
+    "PAYS": "PORTUGAL",
+    "VILLE": "Coimbra",
+    "lien_univ": "https://www.uc.pt/en/",
+    "prix_moyen_logement": 750,
+    "GPA": 3.5,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Electrical Engineering"
+  },
+  {
+    "TITLE": "BRNO",
+    "CONTINENT": "EUROPE",
+    "PAYS": "RÉPUBLIQUE TCHÈQUE",
+    "VILLE": "Brno",
+    "lien_univ": "https://www.vut.cz/en/",
+    "prix_moyen_logement": 650,
+    "GPA": 3.5,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "PLZEN",
+    "CONTINENT": "EUROPE",
+    "PAYS": "RÉPUBLIQUE TCHÈQUE",
+    "VILLE": "Plzen",
+    "lien_univ": "https://www.zcu.cz/en/index.html",
+    "prix_moyen_logement": 650,
+    "GPA": 3.5,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "CHARLES UNIVERSITIY",
+    "CONTINENT": "EUROPE",
+    "PAYS": "RÉPUBLIQUE TCHÈQUE",
+    "VILLE": "Prague",
+    "lien_univ": "https://cuni.cz/UKEN-1.html",
+    "prix_moyen_logement": 650,
+    "GPA": 3.7,
+    "domaine_cours": "Mathematics"
+  },
+  {
+    "TITLE": "MARIBOR",
+    "CONTINENT": "EUROPE",
+    "PAYS": "SLOVÉNIE",
+    "VILLE": "Maribor",
+    "lien_univ": "https://www.um.si/en/home-page/",
+    "prix_moyen_logement": 250,
+    "GPA": 3.4,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "UBA",
+    "CONTINENT": "LATAM",
+    "PAYS": "ARGENTINE",
+    "VILLE": "Buenos Aires",
+    "lien_univ": "https://www.uba.ar/",
+    "prix_moyen_logement": 450,
+    "GPA": 3.4,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Industrial Engineering / Computer Science / Chemical Engineering / Mining and Geothermal Engineering"
+  },
+  {
+    "TITLE": "UNR",
+    "CONTINENT": "LATAM",
+    "PAYS": "ARGENTINE",
+    "VILLE": "Rosario",
+    "lien_univ": "https://unr.edu.ar/",
+    "prix_moyen_logement": 350,
+    "GPA": 3.4,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "UNC",
+    "CONTINENT": "LATAM",
+    "PAYS": "ARGENTINE",
+    "VILLE": "Cordoba",
+    "lien_univ": "https://www.unc.edu.ar/",
+    "prix_moyen_logement": 450,
+    "GPA": 3.4,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "UFC",
+    "CONTINENT": "LATAM",
+    "PAYS": "BRÉSIL",
+    "VILLE": "Fortaleza",
+    "lien_univ": "https://www.ufc.br/",
+    "prix_moyen_logement": 250,
+    "GPA": 3.5,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Industrial Engineering / Computer Science / Mining and Geothermal Engineering"
+  },
+  {
+    "TITLE": "UNB",
+    "CONTINENT": "LATAM",
+    "PAYS": "BRÉSIL",
+    "VILLE": "Brasilia",
+    "lien_univ": "https://international.unb.br/",
+    "prix_moyen_logement": 350,
+    "GPA": 3.5,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Industrial Engineering / Computer Science / Aerospace Engineering"
+  },
+  {
+    "TITLE": "EESC - USP",
+    "CONTINENT": "LATAM",
+    "PAYS": "BRÉSIL",
+    "VILLE": "Sao Paulo",
+    "lien_univ": "https://eesc.usp.br/",
+    "prix_moyen_logement": 350,
+    "GPA": 3.5,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Industrial Engineering / Computer Science / Aerospace Engineering"
+  },
+  {
+    "TITLE": "Poli - USP",
+    "CONTINENT": "LATAM",
+    "PAYS": "BRÉSIL",
+    "VILLE": "Sao Paulo",
+    "lien_univ": "https://www5.usp.br/",
+    "prix_moyen_logement": 350,
+    "GPA": 3.5,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Industrial Engineering / Computer Science / Mining and Geothermal Engineering"
+  },
+  {
+    "TITLE": "UNESP",
+    "CONTINENT": "LATAM",
+    "PAYS": "BRÉSIL",
+    "VILLE": "Sao Paulo",
+    "lien_univ": "https://www2.unesp.br/",
+    "prix_moyen_logement": 350,
+    "GPA": 3.5,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Industrial Engineering / Mechatronic Engineering / Aerospace Engineering"
+  },
+  {
+    "TITLE": "UFRGS",
+    "CONTINENT": "LATAM",
+    "PAYS": "BRÉSIL",
+    "VILLE": "Porto Alegre",
+    "lien_univ": "https://www.ufrgs.br/site/",
+    "prix_moyen_logement": 450,
+    "GPA": 3.5,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Industrial Engineering / Computer Science / Mechatronic Engineering / Mining and Geothermal Engineering / Physics"
+  },
+  {
+    "TITLE": "PUC Rio",
+    "CONTINENT": "LATAM",
+    "PAYS": "BRÉSIL",
+    "VILLE": "Rio de Janeiro",
+    "lien_univ": "https://www.puc-rio.br/index.html",
+    "prix_moyen_logement": 450,
+    "GPA": 3.5,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Industrial Engineering / Computer Science / Mechatronic Engineering / Mining and Geothermal Engineering"
+  },
+  {
+    "TITLE": "UFRJ",
+    "CONTINENT": "LATAM",
+    "PAYS": "BRÉSIL",
+    "VILLE": "Rio de Janeiro",
+    "lien_univ": "https://ufrj.br/",
+    "prix_moyen_logement": 450,
+    "GPA": 3.5,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Industrial Engineering / Computer Science / Mechatronic Engineering / Mining and Geothermal Engineering"
+  },
+  {
+    "TITLE": "UNICAMP",
+    "CONTINENT": "LATAM",
+    "PAYS": "BRÉSIL",
+    "VILLE": "Campinas",
+    "lien_univ": "https://www.comvest.unicamp.br/",
+    "prix_moyen_logement": 350,
+    "GPA": 3.5,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Computer Science"
+  },
+  {
+    "TITLE": "UNB",
+    "CONTINENT": "LATAM",
+    "PAYS": "BRÉSIL",
+    "VILLE": "Brasilia",
+    "lien_univ": "https://www.unb.br",
+    "prix_moyen_logement": 350,
+    "GPA": 3.5,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Industrial Engineering / Computer Science / Aerospace Engineering"
+  },
+  {
+    "TITLE": "UFSC",
+    "CONTINENT": "LATAM",
+    "PAYS": "BRÉSIL",
+    "VILLE": "Florianopolis",
+    "lien_univ": "https://en.ufsc.br/",
+    "prix_moyen_logement": 350,
+    "GPA": 3.5,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Industrial Engineering / Mechatronic Engineering"
+  },
+  {
+    "TITLE": "U Chile",
+    "CONTINENT": "LATAM",
+    "PAYS": "CHILI",
+    "VILLE": "Santiago de Chile",
+    "lien_univ": "https://ingenieria.uchile.cl",
+    "prix_moyen_logement": 350,
+    "GPA": 3.4,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "UNI ANDES",
+    "CONTINENT": "LATAM",
+    "PAYS": "COLOMBIE",
+    "VILLE": "Bogota",
+    "lien_univ": "https://www.uniandes.edu.co/",
+    "prix_moyen_logement": 350,
+    "GPA": 3.7,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "UADY",
+    "CONTINENT": "ASIE",
+    "PAYS": "MÉXIQUE",
+    "VILLE": "Yucatan",
+    "lien_univ": "http://uady.mx/",
+    "prix_moyen_logement": 350,
+    "GPA": 3.4,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "UASLP",
+    "CONTINENT": "ASIE",
+    "PAYS": "MÉXIQUE",
+    "VILLE": "San Luis de Potosí",
+    "lien_univ": "https://www.uaslp.mx/#gsc.tab=0",
+    "prix_moyen_logement": 350,
+    "GPA": 3.4,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Computer Science"
+  },
+  {
+    "TITLE": "UTP",
+    "CONTINENT": "ASIE",
+    "PAYS": "PANAMA",
+    "VILLE": "Panama",
+    "lien_univ": "https://utp.ac.pa/",
+    "prix_moyen_logement": 650,
+    "GPA": 3.4,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "ECPK",
+    "CONTINENT": "ASIE",
+    "PAYS": "CHINE",
+    "VILLE": "Pékin",
+    "lien_univ": "https://ecpknfr.buaa.edu.cn/index.htm",
+    "prix_moyen_logement": 100,
+    "GPA": 3.5,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "Beihang",
+    "CONTINENT": "ASIE",
+    "PAYS": "CHINE",
+    "VILLE": "Pékin",
+    "lien_univ": "https://ev.buaa.edu.cn/",
+    "prix_moyen_logement": 100,
+    "GPA": 3.5,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "NTUST",
+    "CONTINENT": "ASIE",
+    "PAYS": "TAIWAN",
+    "VILLE": "Taipei",
+    "lien_univ": "https://www.ntust.edu.tw/?Lang=en",
+    "prix_moyen_logement": 450,
+    "GPA": 3.4,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "NSYSU",
+    "CONTINENT": "ASIE",
+    "PAYS": "TAIWAN",
+    "VILLE": "Kaohsiung",
+    "lien_univ": "https://www.nsysu.edu.tw/?Lang=en",
+    "prix_moyen_logement": 550,
+    "GPA": 3.4,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "NCU",
+    "CONTINENT": "ASIE",
+    "PAYS": "TAIWAN",
+    "VILLE": "Taoyuan",
+    "lien_univ": "https://www.oia.ncu.edu.tw/en/",
+    "prix_moyen_logement": 150,
+    "GPA": 3.4,
+    "domaine_cours": "General Engineering"
+  },
+  {
+    "TITLE": "UQ",
+    "CONTINENT": "ASIE",
+    "PAYS": "AUSTRALIE",
+    "VILLE": "Brisbane",
+    "lien_univ": "https://www.uq.edu.au/",
+    "prix_moyen_logement": 750,
+    "GPA": 3.5,
+    "domaine_cours": "Mechanical Engineering / Civil Engineering / Electrical Engineering / Computer Science / Chemical Engineering / Mechatronic Engineering / Aerospace Engineering / Mining and Geothermal Engineering"
+  }
+]

@@ -561,7 +561,7 @@
   },
   {
     "TITLE": "UADY",
-    "CONTINENT": "ASIE",
+    "CONTINENT": "LATAM",
     "PAYS": "MÉXIQUE",
     "VILLE": "Yucatan",
     "lien_univ": "http://uady.mx/",
@@ -571,7 +571,7 @@
   },
   {
     "TITLE": "UASLP",
-    "CONTINENT": "ASIE",
+    "CONTINENT": "LATAM",
     "PAYS": "MÉXIQUE",
     "VILLE": "San Luis de Potosí",
     "lien_univ": "https://www.uaslp.mx/#gsc.tab=0",
@@ -581,7 +581,7 @@
   },
   {
     "TITLE": "UTP",
-    "CONTINENT": "ASIE",
+    "CONTINENT": "LATAM",
     "PAYS": "PANAMA",
     "VILLE": "Panama",
     "lien_univ": "https://utp.ac.pa/",

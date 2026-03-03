@@ -161,7 +161,6 @@ fetch('universites_V5.json')
         universites = data;
         console.log("✅ JSON chargé avec succès :", universites);
         // Optionnel : afficher toutes les universités dès le début
-        document.getElementById("status").textContent = `${data.length} universités chargées`;
 
         displayUniversities(4.5, 10000, "Tous"); 
     })
@@ -216,6 +215,7 @@ function displayUniversities(gpaFiltre, prixFiltre, domaineCours) {
         resultsContainer.innerHTML = "<p class='no-result'>Aucune université ne correspond à ces critères.</p>";
         return;
     }
+    document.getElementById("status").textContent = `${filtered3.length} universités affichées`;
 
     filtered3.forEach(u => {
         const continent = u.CONTINENT || "Autres";
